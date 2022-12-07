@@ -1,0 +1,60 @@
+.main-div {
+  margin: 100px auto;
+}
+.headingName {
+  color: white;
+  font-size: 3rem;
+}
+img {
+  width: 100px;
+  height: 100px;
+  margin-top: 15px;
+}
+.eachItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(173, 24, 241);
+  width: 190px;
+  height: 25px;
+  margin: 10px auto;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}
+
+.eachItem:hover {
+  background-color: white;
+  color: black;
+}
+.showItem i {
+  color: black;
+}
+
+
+figcaption,
+i {
+  color: white;
+}
+i {
+  cursor: pointer;
+}
+.addItems {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+}
+.btn {
+  background-color: blue;
+  padding: 10px;
+  width: 120px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: white;
+}
